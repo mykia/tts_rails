@@ -4,14 +4,22 @@
 
 #main {
 text-align: center;
-top: 50%;
+top: 30%;
 width: 100%;
 position: absolute;
 background-color: bisque;
+line-height: 1em;
+
+	#greeting {
+		color: crimson;
+		font-size: 2em
+		
+	}
+
+	#clock {
+		font-family: impact;
+		font-size: 6em;
+
+	}
 
 }
-
-#greeting {
-	color: crimson;
-}
-

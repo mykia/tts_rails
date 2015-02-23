@@ -14,4 +14,9 @@
  *= require_self
  */
 
+html {
+	font-family: cursive;
+	font-size: 20px;
+	background-color: #abc;
+}
  
