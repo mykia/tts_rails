@@ -7,11 +7,11 @@ text-align: center;
 top: 30%;
 width: 100%;
 position: absolute;
-background-color: bisque;
+background-color: #333;
 line-height: 1em;
 
 	#greeting {
-		color: crimson;
+		color: #01b0f0;
 		font-size: 2em
 		
 	}
@@ -19,6 +19,13 @@ line-height: 1em;
 	#clock {
 		font-family: impact;
 		font-size: 6em;
+		color: #aeee00
+
+	}
+
+	#welcome{
+		color: #ff358b ;
+
 
 	}
 

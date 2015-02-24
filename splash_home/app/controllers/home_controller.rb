@@ -1,11 +1,12 @@
 class HomeController < ApplicationController
   def index
-  	right_now = Time.now
-  	@current_time = right_now.to_formatted_s(:long) #use the stamp gem to make this look better
+  	@current_time = Time.now.stamp_like("Aug 27, 2015 5:00 pm")
+
+  	#@current_time = right_now.stamp(11:41) #.to_formatted_s(:long) #use the stamp gem to make this look better
   	
 
   	# Adjust message by time of day
-  	@greet_message = case right_now.hour
+  	@greet_message = case Time.now.hour
   	when 5..11
   		"Good Morning, Sugar!"
   	when 12..17
