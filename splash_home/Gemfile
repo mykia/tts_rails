@@ -44,6 +44,10 @@ gem 'font-awesome-rails'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+
+	# gives us great color for puts functionality
+	gem 'awesome_print'
+
 	#Quiet those assets down!!! SIMMA DOWN NAH!
 	gem 'quiet_assets'
 
