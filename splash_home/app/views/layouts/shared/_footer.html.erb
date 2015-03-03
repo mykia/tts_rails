@@ -1,11 +1,7 @@
 <div id="footer">
 <!--<i class="fa fa-github-square"></i> -->
-&copy; <script language="javascript" type="text/javascript">
-var today = new Date()
-var year = today.getFullYear()
-document.write(year)
-</script>
-|
+&copy; <%=Time.now.year%> 
+
 <a href="http://github.com/mykia/tts_rails/tree/master/splash_home" target = "_blank" >
 	<%= fa_icon  "github-square", text: "Source Code"%>
 </a>
@@ -13,3 +9,8 @@ document.write(year)
 </div>
 
 
+<!--// <script language="javascript" type="text/javascript">
+// var today = new Date()
+// var year = today.getFullYear()
+// document.write(year)
+// </script> --!>
