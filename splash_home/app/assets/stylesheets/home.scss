@@ -22,12 +22,25 @@ line-height: 1em;
 		color: #aeee00
 
 	}
-
-	#welcome{
-		color: #fff;
+}
+	#quote {
+		position: absolute;
+		width: 100%;
+		bottom: 5em;
+		text-align: center;
+		font-size:1em;
+		color: crimson;
 		font-family: arial;
+	
 
+		&:before {
+		content: open-quote;
+		// font-size: 0.7em;
+		}
 
+		&:after{
+			content: close-quote;
+			// font-size: 0.7em;
+		}
 	}
 
-}

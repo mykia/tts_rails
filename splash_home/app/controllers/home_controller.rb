@@ -17,5 +17,7 @@ class HomeController < ApplicationController
   		"You should be sleep, Sweetheart!"
   	end
 
+    @quote = Quote.all.sample.quip
+
  end
 end
