@@ -26,11 +26,12 @@ line-height: 1em;
 	#quote {
 		position: absolute;
 		width: 100%;
-		bottom: 5em;
+		bottom: 2em;
 		text-align: center;
-		font-size:1em;
-		color: crimson;
-		font-family: arial;
+		font-size:1.5em;
+		color: white;
+		font-family: cursive;
+		text-shadow: 4px 4px 0 #000;
 	
 
 		&:before {
