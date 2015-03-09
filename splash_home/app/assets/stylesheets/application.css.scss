@@ -42,6 +42,27 @@ body{
 
 }
 
+#clearance {
+	color: #888;
+	background-color: rgba(0,0,0,0.5);
+	padding: 1em 3em 3em 3em;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+
+	a {
+		color: #bada55;
+		text-decoration: none;
+		display: block;
+		}
+	div {
+		padding-top: 0.3em;
+	}
+
+}
+
+
 p {
 color: #ff358b;
 font-size: 60px;
