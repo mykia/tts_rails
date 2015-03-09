@@ -21,6 +21,10 @@
 		    <div class="flash <%= key %>"><%= value %></div>
 		  <% end %>
 		</div>
+
+		<div class="home">
+			<%= link_to (fa_icon "home", text: "Go Home"), home_index_path %>
+		</div>
 </div>
 
 <%= yield %>

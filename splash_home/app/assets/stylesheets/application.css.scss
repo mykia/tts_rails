@@ -31,12 +31,14 @@ body{
 }
 
 #clearance_links {
-	font-size: $minor-sized;
+	color: #eee;
+	font-size: 1em;
 	padding: $minor-sized;
 
 	a {
 		text-decoration: none;
 		color: #bada55;
+		font-size: $minor-sized;
 		display: block;
 	}
 
