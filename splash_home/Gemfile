@@ -43,6 +43,9 @@ gem 'font-awesome-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# User authentication
+gem 'clearance', '~>1.8.1'
+
 group :development, :test do
 
 	# gives us great color for puts functionality
