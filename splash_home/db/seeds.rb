@@ -30,3 +30,4 @@ Quote.create(quip: "The two most important days in your life are the day you are
 Quote.create(quip: "Either you run the day, or the day runs you.")
 Quote.create(quip: "The mind is everything. What you think you become. ")
 Quote.create(quip: "Whether you think you can or you think you can’t, you’re right.")
+Quote.create(quip: "Simplicity is the ultimate sophistication.")
