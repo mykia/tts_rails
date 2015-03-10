@@ -46,7 +46,7 @@ body{
 
 #clearance {
 	color: #888;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.4);
 	padding: 1em 3em 3em 3em;
 	border-radius: 5px;
 	margin: 0 auto;
@@ -62,8 +62,32 @@ body{
 		padding-top: 0.3em;
 	}
 
+	.other-links {
+		font-size: minor-sized;
+		margin-top: 2em;
+		padding: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.6);
+		border-radius: 5px;
+		
+		a {
+			padding:2px;
+		}
+
+	}
+
 }
 
+.flash.notice {
+
+	background-color: rgba(255, 0, 0, 0.4);
+	padding: 1em;
+	width: 25em;
+	margin: 0.5em auto;
+	font-weight: bold;
+	border-radius: 5px;
+	text-align:center;
+
+}
 
 p {
 color: #ff358b;
@@ -83,10 +107,12 @@ padding: 0 0 0 0;
  	color: #888;
  	left: 0;
  	font-family: arial;
+
  
 	a {
 	 	color: #777;
 	 	text-decoration: none;
+
 		&:visited {
 		color: #555;
 		 }
